@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(start index.html)",
+      "Bash(dir \"C:\\Users\\rmsc1\\Desktop\\新しいフォルダー\\it-document-analyzer\")",
+      "Bash(dir:*)",
+      "Bash(start \"C:\\Users\\rmsc1\\Desktop\\新しいフォルダー\\it-document-analyzer\\index.html\")",
+      "Bash(explorer:*)"
+    ],
+    "deny": []
+  }
+}

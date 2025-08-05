@@ -1,0 +1,124 @@
+{
+  "terms": [
+    {
+      "term": "AWS",
+      "aliases": ["Amazon Web Services"],
+      "definition": "Amazonが提供するクラウドコンピューティングプラットフォームです。仮想サーバー、ストレージ、データベースなど200以上のサービスを提供しています。",
+      "category": "基本概念"
+    },
+    {
+      "term": "EC2",
+      "aliases": ["Amazon Elastic Compute Cloud", "EC2インスタンス", "インスタンス"],
+      "definition": "仮想サーバーを提供するAWSのコンピューティングサービスです。スケーラブルで柔軟な仮想マシンを簡単に起動・管理できます。",
+      "category": "コンピューティング"
+    },
+    {
+      "term": "S3",
+      "aliases": ["Amazon Simple Storage Service", "S3バケット"],
+      "definition": "オブジェクトストレージサービスです。Webサイト、バックアップ、データアーカイブなど様々な用途でファイルを保存できます。",
+      "category": "ストレージ"
+    },
+    {
+      "term": "RDS",
+      "aliases": ["Amazon Relational Database Service"],
+      "definition": "マネージドリレーショナルデータベースサービスです。MySQL、PostgreSQL、Oracle、SQL Serverなどを簡単にセットアップ・運用できます。",
+      "category": "データベース"
+    },
+    {
+      "term": "VPC",
+      "aliases": ["Virtual Private Cloud"],
+      "definition": "AWS内に論理的に分離されたプライベートネットワークを作成するサービスです。セキュリティとネットワーク制御を強化できます。",
+      "category": "ネットワーキング"
+    },
+    {
+      "term": "IAM",
+      "aliases": ["Identity and Access Management"],
+      "definition": "AWSリソースへのアクセスを安全に制御するサービスです。ユーザー、グループ、ロール、ポリシーを管理できます。",
+      "category": "セキュリティ"
+    },
+    {
+      "term": "Lambda",
+      "aliases": ["AWS Lambda"],
+      "definition": "サーバーレスコンピューティングサービスです。サーバーの管理なしにコードを実行でき、イベント駆動型の処理に最適です。",
+      "category": "コンピューティング"
+    },
+    {
+      "term": "CloudFront",
+      "aliases": ["Amazon CloudFront"],
+      "definition": "コンテンツ配信ネットワーク（CDN）サービスです。世界中のエッジロケーションからコンテンツを高速配信できます。",
+      "category": "ネットワーキング"
+    },
+    {
+      "term": "ELB",
+      "aliases": ["Elastic Load Balancer", "Application Load Balancer", "ALB"],
+      "definition": "複数のEC2インスタンスにトラフィックを自動的に分散するロードバランサーサービスです。アプリケーションの可用性を向上させます。",
+      "category": "ネットワーキング"
+    },
+    {
+      "term": "CloudWatch",
+      "aliases": ["Amazon CloudWatch"],
+      "definition": "AWSリソースとアプリケーションの監視サービスです。メトリクス収集、ログ監視、アラーム設定ができます。",
+      "category": "監視・運用"
+    },
+    {
+      "term": "Auto Scaling",
+      "aliases": ["Amazon EC2 Auto Scaling"],
+      "definition": "需要に応じてEC2インスタンスの数を自動的に調整するサービスです。コスト最適化とパフォーマンス維持を両立できます。",
+      "category": "コンピューティング"
+    },
+    {
+      "term": "Route 53", 
+      "aliases": ["Amazon Route 53"],
+      "definition": "スケーラブルなドメインネームシステム（DNS）Webサービスです。ドメイン登録、DNS ルーティング、ヘルスチェック機能を提供します。",
+      "category": "ネットワーキング"
+    },
+    {
+      "term": "EBS",
+      "aliases": ["Elastic Block Store"],
+      "definition": "EC2インスタンス用の永続的なブロックストレージです。高性能で信頼性の高いストレージボリュームを提供します。",
+      "category": "ストレージ"
+    },
+    {
+      "term": "EFS",
+      "aliases": ["Elastic File System"],
+      "definition": "複数のEC2インスタンスから同時にアクセス可能な共有ファイルシステムです。NFSプロトコルを使用します。",
+      "category": "ストレージ"
+    },
+    {
+      "term": "クラウドコンピューティング",
+      "aliases": ["クラウド"],
+      "definition": "インターネット経由でコンピューティングリソース（サーバー、ストレージ、データベースなど）を提供するサービスモデルです。",
+      "category": "基本概念"
+    },
+    {
+      "term": "仮想サーバー",
+      "aliases": ["仮想マシン", "VM"],
+      "definition": "物理サーバー上に作成される論理的なサーバーです。一つの物理マシン上で複数の仮想サーバーを動作させることができます。",
+      "category": "基本概念"
+    },
+    {
+      "term": "インフラ",
+      "aliases": ["インフラストラクチャ", "ITインフラ"],
+      "definition": "情報システムの基盤となるハードウェアやソフトウェアの総称です。サーバー、ネットワーク、ストレージなどが含まれます。",
+      "category": "基本概念"
+    },
+    {
+      "term": "スケーラビリティ",
+      "aliases": ["拡張性"],
+      "definition": "システムの負荷や要求の増加に応じて、性能や容量を柔軟に拡張できる能力のことです。",
+      "category": "基本概念"
+    },
+    {
+      "term": "可用性",
+      "aliases": ["アベイラビリティ"],
+      "definition": "システムが正常に稼働し続ける能力の指標です。通常はパーセンテージで表され、99.9%などと表現されます。",
+      "category": "基本概念"
+    },
+    {
+      "term": "耐久性",
+      "aliases": ["デュラビリティ"],
+      "definition": "データが失われることなく長期間保持される能力のことです。S3は99.999999999%（イレブンナイン）の耐久性を提供します。",
+      "category": "基本概念"
+    }
+  ]
+}

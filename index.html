@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT文章解剖サイト - AWS用語解説</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🔍 IT文章解剖サイト</h1>
+            <p class="subtitle">専門用語を瞬時に解説</p>
+        </header>
+
+        <main class="main-content">
+            <div class="content-layout">
+                <div class="input-section">
+                    <h2>📄 文章を入力してください</h2>
+                    <textarea 
+                        id="documentText" 
+                        placeholder="例：Amazon Elastic Compute Cloud（EC2）は、仮想サーバーの機能を提供するAWSのサービスです。管理者は物理的なインフラを気にすることなく、EC2インスタンス上でアプリケーションを実行できます。Auto Scalingを使用することで、需要に応じてインスタンス数を自動調整し、高い可用性とスケーラビリティを実現できます。"
+                        rows="20"
+                    ></textarea>
+                    <div class="button-group">
+                        <button id="analyzeBtn" class="analyze-btn">🔍 用語を解析</button>
+                        <button id="clearBtn" class="clear-btn">🗑️ クリア</button>
+                    </div>
+                </div>
+
+                <div class="terms-sidebar">
+                    <h2>📚 検出された用語</h2>
+                    <div id="termsList" class="terms-list">
+                        <p class="placeholder">用語が検出されるとここに表示されます</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 IT文章解剖サイト - 学習支援ツール</p>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
